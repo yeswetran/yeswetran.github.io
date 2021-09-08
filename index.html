@@ -1,14 +1,55 @@
 <!DOCTYPE html>
 <html>
-<body>
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0" nonce="qkXVLSsS"></script>    
+  <body>
+    <h1>hello world</h1>
+    <ol>
+      <li><em>item 1: this has an em tag</em></li>
+      <li style="color:rgb(23, 150, 223)"> item 2: as you can see, OL creates ordered lists</li>
+      <li><span style="color:rosybrown">item 3: span is useful!</span></li>
+      <style>
+        li {
+            color:teal
+        }
+        #last_li{
+            color:tan
+        }
+        ul li{
+          color:purple;
+          list-style-type: none;
+          display: inline-block;
+          width: 250;
+          padding: 0px;
+        }
+        ul li:hover{
+          background-color:red;
+          color:white
+        }
+      </style>
+      <li>item 4: thanks to &gt;style&lt;, all items are teal by default</li>
+      <li>item 5: see?</li>
+      <li>item 6: see?</li>
+      <li>note to self: i should move the style section to the top of the body section
+        because no matter where i place it, it renders for the rest of the "ol" list
+      </li>
+      <li id=last_li>item 7: last li is tan!</li>
+    </ol>
+    <hl>My Book Website</hl>
+    <ul>
+      <a href="google.com"><li>Harry Potter</li></a>
+      <li>Game of Thrones</li>
+      <li>Great Gatsby</li>
+    </ul>
+  </body>
+</html>
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0" nonce="qkXVLSsS"></script>    
 <h1>Hello There</h1>
 <br>
 <iframe src="https://giphy.com/embed/Nx0rz3jtxtEre" width="480" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/mrw-top-escalator-Nx0rz3jtxtEre">via GIPHY</a></p>
 <br>
 <p>I'm hosted with GitHub Pages.</p>   
-</body>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
 <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
@@ -22,4 +63,3 @@
 
   gtag('config', 'G-MH04VLPV9T');
 </script>
-</html>
